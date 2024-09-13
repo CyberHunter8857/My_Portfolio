@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Michroma", sans-serif;
+    height: 100vh;
+}
+.container{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.loading-page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(to right, #2c5364, #203a43, #0f2027); */
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(39, 39, 39) 90.2%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#svg{
+    height: 200px;
+    width: 200px;
+    stroke:white;
+    fill-opacity: 0;
+    stroke-width: 3px;
+    stroke-dasharray: 4500;
+    animation: draw 8s ease;
+    margin: -15px;
+}
+@keyframes draw {
+    0%{
+        stroke-dashoffset: 4500;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+.logo-name{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 10px;
+    margin-left: 14px;
+}
+.name-container{
+    height: 30px;
+    overflow: hidden;
+}
+
+.loading-dots {
+    font-family: "Michroma", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px; 
+}
+.container p{
+    margin-right: 3.5px;
+}
+
+.dot {
+    font-size: 20px;
+    color: white;
+    margin: 0 2px;
+    animation: blink 1.5s infinite step-start;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
