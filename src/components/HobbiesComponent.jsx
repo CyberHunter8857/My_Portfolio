@@ -14,6 +14,12 @@ const HobbiesComponent = () => {
     { title: 'Movies & Series', percentage: 80, icon: '🎬', color: '#EF4444' },
     { title: 'Web Development', percentage: 85, icon: '💻', color: '#10B981' },
     {
+      title: 'Agentic AI & ML',
+      percentage: 80,
+      icon: '🤖',
+      color: '#A855F7',
+    },
+    {
       title: 'Reading & Learning',
       percentage: 75,
       icon: '📚',
