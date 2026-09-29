@@ -3,18 +3,20 @@ import { Timeline } from '../components/timeline';
 
 const data = [
   {
-    title: '2022 - Present',
+    title: '2022 - 2026',
     content: (
       <div className="font-grotesk space-y-6">
         <div className="rounded-lg border border-blue-500/20 bg-gradient-to-br from-blue-500/5 to-blue-600/10 p-6 backdrop-blur-sm">
           <h4 className="mb-3 text-lg font-semibold text-blue-400 dark:text-blue-300">
-            Bachelor's of Engineering (B.E.) - Final Year
+            Bachelor's of Engineering (B.E.) - Completed
           </h4>
           <p className="mb-4 leading-relaxed font-normal text-slate-700 dark:text-slate-300">
-            Currently pursuing Final Year Bachelor's of Engineering at Sinhgad
-            Institute of Technology and Science Narhe under SPPU. Focusing on
-            advanced engineering concepts, project development, and
-            industry-ready skills.
+            Completed Bachelor's of Engineering in Electronics and
+            Telecommunication with Honours in Cyber Security from Sinhgad
+            Institute of Technology and Science, Narhe under SPPU with
+            Distinction. Acquired strong expertise in advanced engineering
+            concepts, project development, and industry-ready skills
+            throughout the four-year journey.
           </p>
           <div className="space-y-2">
             <div className="flex items-center gap-3 text-slate-600 dark:text-slate-400">
@@ -26,8 +28,80 @@ const data = [
               <span>Affiliated to SPPU (Savitribai Phule Pune University)</span>
             </div>
             <div className="flex items-center gap-3 text-slate-600 dark:text-slate-400">
-              <span className="text-lg">🎯</span>
-              <span>Final Year - Graduating 2025</span>
+              <span className="text-lg">📡</span>
+              <span>Electronics and Telecommunication Engineering</span>
+            </div>
+            <div className="flex items-center gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg">🛡️</span>
+              <span>Honours — Cyber Security</span>
+            </div>
+            <div className="flex items-center gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg">🎓</span>
+              <span>Graduated: July 2026</span>
+            </div>
+            <div className="flex items-center gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg">🏆</span>
+              <span className="font-medium text-blue-400">
+                Distinction — Grade A | CGPA: 8.25
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: 'Feb 2026 - May 2026',
+    content: (
+      <div className="font-grotesk space-y-6">
+        <div className="rounded-lg border border-cyan-500/20 bg-gradient-to-br from-cyan-500/5 to-cyan-600/10 p-6 backdrop-blur-sm">
+          <h4 className="mb-3 text-lg font-semibold text-cyan-400 dark:text-cyan-300">
+            GENC Intern | MuleSoft Domain
+          </h4>
+          <p className="mb-4 text-sm font-medium text-cyan-500 dark:text-cyan-400">
+            Cognizant
+          </p>
+          <p className="mb-4 leading-relaxed font-normal text-slate-700 dark:text-slate-300">
+            Completed an intensive internship focusing on API integration and
+            development using MuleSoft Anypoint Platform. Gained hands-on
+            experience in building enterprise-level integrations and working
+            with API-led connectivity architecture.
+          </p>
+          <div className="space-y-3">
+            <div className="flex items-start gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg mt-0.5">🔌</span>
+              <span>
+                Developed and deployed API integrations using MuleSoft Anypoint
+                Platform for enterprise-level applications
+              </span>
+            </div>
+            <div className="flex items-start gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg mt-0.5">⚙️</span>
+              <span>
+                Designed and implemented RESTful APIs and data transformations
+                using DataWeave
+              </span>
+            </div>
+            <div className="flex items-start gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg mt-0.5">🔄</span>
+              <span>
+                Built and tested Mule flows for CRUD operations including bulk
+                insert, update, and delete
+              </span>
+            </div>
+            <div className="flex items-start gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg mt-0.5">🌐</span>
+              <span>
+                Worked with API-led connectivity architecture to integrate
+                multiple systems and improve data flow efficiency
+              </span>
+            </div>
+            <div className="flex items-start gap-3 text-slate-600 dark:text-slate-400">
+              <span className="text-lg mt-0.5">🐛</span>
+              <span>
+                Debugged and optimized integration flows to ensure reliability
+                and performance
+              </span>
             </div>
           </div>
         </div>

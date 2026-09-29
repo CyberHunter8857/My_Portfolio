@@ -25,6 +25,18 @@ const AboutMe = () => {
         modern frameworks, cloud platforms, and innovative tools while
         continuously sharpening my skills to deliver impactful software that
         bridges ideas with real-world needs.
+        <br />
+        <br />
+        Currently diving deep into{' '}
+        <span className="font-semibold text-purple-400">Agentic AI</span>,
+        learning to build intelligent agents using{' '}
+        <span className="text-cyan-400">OpenAI</span>,{' '}
+        <span className="text-cyan-400">Gemini</span>, and{' '}
+        <span className="text-cyan-400">Anthropic APIs</span>, along with
+        frameworks like{' '}
+        <span className="text-emerald-400">LangChain</span> and{' '}
+        <span className="text-emerald-400">RAG (Retrieval-Augmented Generation)</span>{' '}
+        architectures to create smarter, context-aware applications.
       </p>
       <div className="mb-8 flex flex-wrap justify-center gap-3">
         <span className="rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-400">

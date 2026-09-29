@@ -48,6 +48,18 @@ const Skills = () => {
         { name: 'Sensors & Relays', level: 85 },
       ],
     },
+    {
+      title: 'Agentic AI & ML',
+      icon: '🤖',
+      color: 'purple',
+      skills: [
+        { name: 'OpenAI API', level: 75 },
+        { name: 'Gemini API', level: 70 },
+        { name: 'Anthropic (Claude) API', level: 70 },
+        { name: 'LangChain', level: 75 },
+        { name: 'RAG Architecture', level: 65 },
+      ],
+    },
   ];
 
   const getColorClasses = (color) => {

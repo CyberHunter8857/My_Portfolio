@@ -38,7 +38,8 @@ function HeroText() {
         As a full-stack developer, I love building powerful digital experiences
         blending code, creativity, and problem-solving. From sleek web apps to
         smart IoT systems and AI-powered solutions, I’m passionate about
-        crafting tech that makes an impact.
+        crafting tech that makes an impact. Currently exploring <span className="font-semibold text-purple-400">Agentic AI</span> with
+        OpenAI, Gemini, Anthropic APIs, LangChain, and RAG architectures.
       </p>
     </div>
   );
