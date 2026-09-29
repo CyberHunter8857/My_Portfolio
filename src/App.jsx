@@ -35,7 +35,6 @@ const App = () => {
       {/* --- Loader overlay --- */}
       {loading && <LoadingScreen />}
 
-      {/* --- Your original layout, untouched --- */}
       <div className="container mx-auto max-w-7xl">
         <ReactLenis root />
         <Navbar />
