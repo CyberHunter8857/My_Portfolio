@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { FaInstagram } from 'react-icons/fa';
 import AboutMeButton from '../components/AboutMeButton';
-import HeroImage from '../components/HeroImage';
+import AnimatedHeroClock from '../components/AnimatedHeroClock';
 
 function Hero() {
   return (
@@ -18,8 +18,7 @@ function Hero() {
           <div className="grid grid-cols-1 items-start gap-y-8 py-12 sm:gap-y-10 sm:py-16 lg:grid-cols-2 lg:items-center lg:gap-20 lg:py-20">
             {/* Left side - Profile Image */}
             <div className="flex items-center justify-center lg:mb-0">
-              <HeroImage
-                src="assets/profile/profilepic.jpg"
+              <AnimatedHeroClock
                 sizeClass="h-60 w-60 sm:h-94 sm:w-94 lg:h-108 lg:w-108"
               />
             </div>

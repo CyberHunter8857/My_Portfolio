@@ -1,4 +1,4 @@
-const timeBasedContent = [
+export const timeBasedContent = [
     {
         timeRange: '6:00 AM - 9:00 AM',
         title: 'Starting the day',
