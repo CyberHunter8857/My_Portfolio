@@ -4,6 +4,7 @@ import Navbar from './sections/Navbar';
 import AboutMe from './sections/AboutMe';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
+import Certificates from './sections/Certificates';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import LoadingScreen from './components/LoadingScreen';
@@ -42,6 +43,7 @@ const App = () => {
         <AboutMe />
         <Skills />
         <Projects />
+        <Certificates />
         <Contact />
       </div>
       <Footer />
